@@ -66,7 +66,7 @@ while(1)
 LED_G=1;
 __delay_ms(200);
 LED_G=0;    
-__delay_ms(3000);
+__delay_ms(5000);
 //RCONbits.RETEN=1;
 Sleep(); 
 }//конец while(1)
