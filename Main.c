@@ -64,11 +64,11 @@ OSCFDIVbits.TRIM = 0;   //дробный делитель частоты генератора 1-1/512,2-2/512 ..
 while(1)
 {
 LED_G=1;
-__delay_ms(100);
+__delay_ms(200);
 LED_G=0;    
 __delay_ms(3000);
 //RCONbits.RETEN=1;
-//Sleep(); 
+Sleep(); 
 }//конец while(1)
     return 0;   //это обязательно
 }//конец int main(void)
