@@ -68,7 +68,7 @@ __delay_ms(100);
 LED_G=0;    
 __delay_ms(500);
 //RCONbits.RETEN=1;
-Sleep(); 
+//Sleep(); 
 }//конец while(1)
     return 0;   //это обязательно
 }//конец int main(void)
