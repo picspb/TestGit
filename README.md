@@ -21,5 +21,13 @@ git commit -m 'Добавил весть проект в наблюдение и
 
 ## Ветвление
 ```
+git branch							- просмотр веток
+git branch test						- создание ветки test
+git branch -D test					- удаление ветки test
+git checkout test 					- переключение на ветку test
+git checkout -b test2				- создание и переключение на ветку test2
+
+git merge test						- принять изменения из ветки test в текущую ветку
+
 
 ````
