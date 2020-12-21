@@ -16,6 +16,10 @@ git commit -m 'Добавил весть проект в наблюдение и
 ## Удалённый Git
 
 ```
+git remote add origin git@github.com:picspb/f.unti.ru.git     - задать адрес удалённого репозитория
+git remote rm origin      - удалить адрес удалённого репозитория
+git remote -v         - смотреть адреса удалённого репозитория
+
 git config --global user.name - Показывает имя пользователя
 git config --global user.name 'picspb'  - Изменяет имя пользователя
 git config --global user.email — Показывает email пользователя
@@ -23,8 +27,14 @@ git config --global user.email 'pic_spb@mail.ru' — Изменяет email по
 
 
 git push origin master      - Заливает текущие локальные коммиты в удаленный репозиторий
-git pull      - Забирает изменения с удаленного репозитория в локальный
+
+git fetch origin  - получить но не сливать изменения из удалённого репозитория
+git pull origin master    - Забирает изменения с удаленного репозитория (из ветки master) в локальный и сливает их вместе с веткой origin
+git branch --set-upstream-to=origin/master - указывает трекинг для pull - теперь можно писать git pull
+
 git clone     - Клонирует проект с удаленного репозитория
+
+
 
 ```
 
