@@ -16,6 +16,15 @@ git commit -m 'Добавил весть проект в наблюдение и
 ## Удалённый Git
 
 ```
+git config --global user.name - Показывает имя пользователя
+git config --global user.name 'picspb'  - Изменяет имя пользователя
+git config --global user.email — Показывает email пользователя
+git config --global user.email 'pic_spb@mail.ru' — Изменяет email пользователя
+
+
+git push      - Заливает текущие локальные коммиты в удаленный репозиторий
+git pull      - Забирает изменения с удаленного репозитория в локальный
+git clone     - Клонирует проект с удаленного репозитория
 
 ```
 
